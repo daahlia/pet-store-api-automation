@@ -1,4 +1,4 @@
-# API automation testing with mocha and chai
+# Pet Store API automation testing with mocha and chai
 
 ## Environment Setup
 
@@ -20,7 +20,7 @@ g. allure/ mochawesome
 4. To generate the test outcome with allur execute the following 
 allure serve output
 
-## Issue
+## Issues
 
 ## Observed the following issues, while performing testing
 
