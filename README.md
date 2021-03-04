@@ -19,9 +19,9 @@
 1. Clone the project(pet-store-api-automation-by-sabina) from github
 2. Open the Project(pet-store-api-automation-by-sabina) in Visual Studio Code
 3. To run the tests user the following command and this should run all the tests under test folder
-npm test
+- npm test
 5. To generate the test outcome with mochawesome execute the following 
-mocha petStoreAPI.js --reporter mochawesome
+- mocha petStoreAPI.js --reporter mochawesome
 
 ## Issues
 
