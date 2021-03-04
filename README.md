@@ -2,15 +2,15 @@
 
 ## Environment Setup
 
-1. Install the following 
+Install the following 
 a. npm
-b. VSCode
+b. vsCode
 c. mocha
 d. chai
 e. supertest
 f. rest
 g. allure/ mochawesome
-h.nodejs
+h. node
 
 
 ## Instruction to Run the API tests
@@ -18,8 +18,9 @@ h.nodejs
 1. Fork the project(pet-store-api-automation-by-sabina) from github
 2. Open the Project(pet-store-api-automation-by-sabina) in Visual Studio Code
 3. To run the tests user the following command and this should run all the tests under test folder
-4. To generate the test outcome with allur execute the following 
-allure serve output
+npm test
+5. To generate the test outcome with allur execute the following 
+mocha petStoreAPI.js --reporter mochawesome
 
 ## Issues
 
