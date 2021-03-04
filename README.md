@@ -4,14 +4,14 @@
 
 ## Install the following 
 
-a. npm
-b. VSCode
-c. mocha
-d. chai
-e. supertest
-f. rest
-g. allure/ mochawesome
-h. node
+1. npm
+2. VSCode
+3. mocha
+4. chai
+5. supertest
+6. rest
+7. allure/ mochawesome
+8. node
 
 
 ## Instruction to Run the API tests
