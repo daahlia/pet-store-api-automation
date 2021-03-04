@@ -10,6 +10,7 @@ d. chai
 e. supertest
 f. rest
 g. allure/ mochawesome
+h.nodejs
 
 
 ## Instruction to Run the API tests
