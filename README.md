@@ -13,6 +13,9 @@ Install the following
 7. allure/ mochawesome
 8. node
 
+## Where are the tests
+All the tests are available in this file petStoreAPI.js
+under this path pet-store-api-automation/test/petStoreAPI.js
 
 ## Instruction to Run the API tests
 
