@@ -3,15 +3,6 @@
     "plugins" : [
         ["@babel/transform-runtime", {
             "regenerator" : true
-        }],
-
-        ["@babel/plugin-proposal-decorators",{
-            "enable" : true
-        }],
-        
-        ["allure", {
-            "enable" : true
-        }]
-        
+        }]       
     ]
 }

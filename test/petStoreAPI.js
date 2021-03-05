@@ -97,9 +97,9 @@ describe('4.DeleteNewlyCreatedPetById', () => {
     
 
 describe('5.FindADeletedPetById', () => {
-    it('GET FindADeletedPetById', () => {
+    it('GET FindADeletedPetById', (done) => {
         console.log("Newly created pet id from GET FindADeletedPetById: " + petId);
-    request.get(`pet/${petId}`).end((err,res) => {
+     request.get(`pet/${petId}`).end((err,res) => {
         console.log(res.body);
         console.log(res.err);
         expect(res.body).not.to.be.empty;
@@ -108,6 +108,7 @@ describe('5.FindADeletedPetById', () => {
         expect(res.body.type).to.eql('error');
         expect(res.status).to.equals(404);   
         expect(res.body.message).to.eql('Pet not found');
+        done();
         });
     });
 }); 
