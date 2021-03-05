@@ -10,17 +10,25 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@babel/cli": "^7.13.0",
+    "@babel/cli": "^7.13.0"
+  },
+  "devDependencies": {
     "@babel/core": "^7.13.8",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.5",
+    "@babel/plugin-transform-exponentiation-operator": "^7.12.13",
     "@babel/plugin-transform-runtime": "^7.13.9",
     "@babel/preset-env": "^7.13.9",
     "@babel/register": "^7.13.8",
-    "@babel/runtime": "^7.13.9"
-  },
-  "devDependencies": {
+    "@babel/runtime": "^7.13.9",
+    "allure": "0.0.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-tester": "^10.0.0",
     "chai": "^4.3.3",
     "eslint": "^7.21.0",
     "mocha": "^8.3.0",
+    "mochawesome": "^6.2.2",
     "prettier": "2.2.1",
     "rest": "^2.0.0",
     "superagent": "^5.3.1",

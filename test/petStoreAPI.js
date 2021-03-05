@@ -1,4 +1,4 @@
-import { expect } from 'chai';
+import { assert, expect } from 'chai';
 import supertest from 'supertest';
 const request = supertest('https://petstore.swagger.io/v2/');
 let petId = `${Math.floor(Math.random() * 9999)}`;
@@ -59,14 +59,14 @@ describe('2.FindNewlyCreatedPetById', () => {
 });
 
 describe('3.UpdateNewlyCreatedPet', () => {
-    it('PUT UpdateNewlyCreatedPet', async() => {
+    it('PUT UpdateNewlyCreatedPet', () => {
         console.log("Newly created pet id from UpdateNewlyCreatedPet: " + petId);
         const data = {
         id: petId,  
         name: petName,
         status: "available"
         };
-    await request
+    request
         .put('pet')
         .set('Content-Type', 'application/json')
         .send(data)
@@ -99,7 +99,7 @@ describe('4.DeleteNewlyCreatedPetById', () => {
 describe('5.FindADeletedPetById', () => {
     it('GET FindADeletedPetById', () => {
         console.log("Newly created pet id from GET FindADeletedPetById: " + petId);
-    request.get(`pet/${petId}`).end((err,res) => {
+     request.get(`pet/${petId}`).end((err,res) => {
         console.log(res.body);
         console.log(res.err);
         expect(res.body).not.to.be.empty;
@@ -107,7 +107,7 @@ describe('5.FindADeletedPetById', () => {
         expect(res.body.code).to.eql(1);
         expect(res.body.type).to.eql('error');
         expect(res.status).to.equals(404);   
-        expect(res.body.message).to.eql('Pet not found');
+        expect(res.body.message).to.eql('Pet not found');       
         });
     });
 }); 
