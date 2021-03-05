@@ -2,7 +2,7 @@
 
 ## Environment Setup
 
-- Install the following 
+Install the following 
 
 1. npm
 2. VSCode
