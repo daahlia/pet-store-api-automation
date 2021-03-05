@@ -2,7 +2,7 @@
 
 ## Environment Setup
 
-## Install the following 
+- Install the following 
 
 1. npm
 2. VSCode
@@ -26,7 +26,7 @@
 
 ## Issues
 
-## Observed the following issues, while performing testing
+- Observed the following issues, while performing testing
 
 Unexpected return of 200 response agasint POST request, even when no new records is created
 Steps to reproduce the issue are as below
