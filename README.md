@@ -1,4 +1,4 @@
-# Pet Store API automation testing with mocha and chai
+# Pet Store API test automation with mocha and chai
 
 ## Environment Setup
 
