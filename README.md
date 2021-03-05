@@ -16,8 +16,8 @@
 
 ## Instruction to Run the API tests
 
-1. Clone the project(pet-store-api-automation-by-sabina) from github
-2. Open the Project(pet-store-api-automation-by-sabina) in Visual Studio Code
+1. Clone the project https://github.com/daahlia/pet-store-api-automation.git from github
+2. Open the Project in Visual Studio Code
 3. To run the tests use the following command and this should run all the tests under test folder
 - npm test
 5. To generate the test execution report with mochawesome execute the following 
